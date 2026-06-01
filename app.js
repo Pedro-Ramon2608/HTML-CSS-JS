@@ -5,7 +5,7 @@ let tl = gsap.timeline({
         start: '0% 95%',
         end: '70% 50%',
         scrub: true, // A animação sincroniza com o movimento de scroll
-        markers: true, // Depuração
+        markers: false, // Depuração
     },
 });
 
@@ -65,7 +65,7 @@ let tl_2 = gsap.timeline({
         start: '0% 95%',
         end: '20% 50%', // Fim da animação (topo da tela atinge 50% da altura quando estiver 20% da seção .three)
         scrub: true, // A animação sincroniza com o movimento de scroll
-        markers: true, // Depuração
+        markers: false, // Depuração
     },
 });
 
